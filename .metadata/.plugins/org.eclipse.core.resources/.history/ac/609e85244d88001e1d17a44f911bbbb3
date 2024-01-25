@@ -1,0 +1,19 @@
+package arrays;
+
+public class primerosPasos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num =0; int sum=0;
+String name= "kike";
+char[]v;
+
+v=name.toCharArray();
+
+
+//		System.out.println(v);
+
+
+	}
+
+}

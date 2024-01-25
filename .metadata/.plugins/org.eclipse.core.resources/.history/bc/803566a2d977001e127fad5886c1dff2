@@ -1,0 +1,15 @@
+package loops;
+
+public class loops1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+char letter='a';
+
+while (letter<='z') {
+	System.out.println(letter + "\t");
+	letter++;
+}
+	}
+
+}

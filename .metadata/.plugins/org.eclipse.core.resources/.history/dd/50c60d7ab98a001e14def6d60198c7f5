@@ -1,0 +1,25 @@
+package examT2;
+
+import java.util.Scanner;
+
+public class Pregunta3 {
+
+	public static void main(String[] args) {
+//Write a table of factorials (user supplies the number). 
+		Scanner sc = new Scanner(System.in);
+		int fact=1;
+		System.out.print("Enter a integer number: ");
+		int num = sc.nextInt();
+		 for (int i = 1; i <= num; i++) {
+	            int factorial = 1;
+	            System.out.print(i + "! = ");
+	            for (int j = i; j > 0; j--) {
+	                factorial *= j;
+	                System.out.print(j);
+	                if(j > 1) System.out.print(" x ");
+		}
+	            System.out.println(" = " + factorial);
+	}
+
+}
+}

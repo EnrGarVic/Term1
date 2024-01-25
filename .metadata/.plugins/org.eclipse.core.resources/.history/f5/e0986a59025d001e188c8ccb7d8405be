@@ -1,0 +1,29 @@
+package term1;
+
+import java.util.Scanner;
+
+public class Task3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		Write a program that asks the user a value (integer data) in pesetas and calculates and displays on 
+//		the screen the value in euros. note: 1 euro = 166.386 pesetas.
+
+		Scanner k=new Scanner(System.in);
+		System.out.println("¿how mutch money you have in pesetas?");
+		
+		double pesetas;
+		
+		pesetas = k.nextDouble();   k.nextLine();
+		
+		double euros= (pesetas/166.386);
+		
+		System.out.println("you have "+ euros +" euros");
+		
+		
+	
+
+
+	}
+
+}

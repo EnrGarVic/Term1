@@ -1,0 +1,23 @@
+package examT2;
+
+import java.util.Scanner;
+
+public class pregunta1B {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String city;
+		do {
+			System.out.print("write the valid city (Valencia, Alicante, Castellon): ");
+			city = sc.next(); sc.nextLine();
+			
+			
+		} while (!city.equalsIgnoreCase("Valecia") && !city.equalsIgnoreCase("Castellon") && !city.equalsIgnoreCase("Alicante"));
+		
+		System.out.println("hola");
+		
+	
+
+	}
+
+}

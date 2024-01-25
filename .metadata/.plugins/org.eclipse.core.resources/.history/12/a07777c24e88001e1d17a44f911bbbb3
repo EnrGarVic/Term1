@@ -1,0 +1,28 @@
+package arrays;
+
+import java.util.Iterator;
+
+public class primerosPasos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num =0; int sum=0;
+		String name= "kike garcia vicent";
+		int []v= new int[10];
+		for (int i = v.length; i < 0; i--) {
+			v[i]=i+1;
+
+		}
+		//for (int i = 10; i < v.length; i++) {
+			//v[i]=i-1;
+
+		//System.out.print(v[i]+"\t");
+	}
+
+
+	//		System.out.println(v);
+
+
+}
+
+

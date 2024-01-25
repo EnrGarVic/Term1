@@ -1,0 +1,20 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class Task9_7 {
+
+	public static void main(String[] args) {
+//Write a program that increases the value of each array element by one. 
+		int[]v=new int[5];
+     ArraysM.fillArrayRandom(v);
+     for (int i : v) {
+		v[i]++;
+	}
+     
+     System.out.println(Arrays.toString(v));
+     
+     
+	}
+
+}

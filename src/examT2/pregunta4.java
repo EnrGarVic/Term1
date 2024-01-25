@@ -1,0 +1,34 @@
+package examT2;
+
+import java.util.Scanner;
+
+public class pregunta4 {
+
+	public static void main(String[] args) {
+		
+		Scanner k = new Scanner (System.in);
+
+		String surname;
+		String name="";
+		String totalName= "";
+		boolean isSlash = false;
+
+		do {
+		 System.out.println("Enter a surname:");
+			surname = k.nextLine();
+			if (surname.equals("/")) {
+				isSlash = true;
+
+			} else {
+				System.out.println("Enter a name:");
+				name = k.nextLine();
+				totalName += surname +"," + name + "\n";
+			}
+
+		} while (!isSlash);
+		System.out.println("--Name list--");
+		System.out.println(totalName);
+		k.close();
+	}
+
+}

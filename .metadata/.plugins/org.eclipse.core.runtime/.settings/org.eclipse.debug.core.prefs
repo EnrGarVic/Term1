@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n    <expression enabled\="true" text\="num\!\=0"/>\n    <expression enabled\="true" text\="text.charAt(i)"/>\n    <expression enabled\="true" text\="i\=text.length"/>\n    <expression enabled\="true" text\="text.length()"/>\n</watchExpressions>\n

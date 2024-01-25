@@ -1,0 +1,23 @@
+package term1;
+
+import java.util.Scanner;
+
+public class ejercicio4b {
+
+	public static void main(String[] args) {
+		// b. Intoducir 5 números enteros y mostrar el producto
+		
+		Scanner k= new Scanner(System.in);
+		int num;
+		int producto = 0;
+		int i = 0;
+		do {
+		System.out.println("Introduce número " + (i*1) + ":");
+		num = k.nextInt();
+		producto += num;
+		i++;
+		}while(i < 5);
+		System.out.println("El producto es: " + producto);
+	}
+
+}

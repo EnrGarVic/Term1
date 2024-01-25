@@ -1,0 +1,15 @@
+package arrays;
+
+public class Task9_8 {
+
+	public static void main(String[] args) {
+
+		double[] a = {1.2, 2.1, 3.3, 2.5, 4.5, 7.9, 5.4, 8.7, 9.9, 1.0};
+		for (int index = 0; index < a.length-1; index++)
+			if (a[index] > a[index + 1])
+				System.out.println("Array elements " + index +
+						" and " + (index + 1) + " are out of order.");
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class ArraysM {
+
+	public static void fillArray(int[]v) {
+		Scanner sc= new Scanner (System.in);
+		System.out.println("Type" + v.length+ "ints ");
+		for (int i = 0; i < v.length; i++) {
+			v[i]= sc.nextInt();
+		}
+	}		
+	public static void fillArray(double[]v) {
+		Scanner sc= new Scanner (System.in);
+		System.out.println("Type" + v.length+ "doubles ");
+		for (double i = 0; i < v.length; i++) {
+			v[i]= sc.nextDouble();
+		}
+
+
+	}
+}
+

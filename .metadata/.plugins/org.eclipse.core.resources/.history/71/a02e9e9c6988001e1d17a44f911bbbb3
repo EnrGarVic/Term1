@@ -1,0 +1,26 @@
+package arrays;
+
+import java.util.Arrays;
+
+public class Task9_7 {
+
+	public static void main(String[] args) {
+//Write a program that increases the value of each array element by one. 
+		int[]v=new int[3];
+    
+   
+     for (int i = 0; i < v.length; i++) {
+    	 ArraysM.fillArray(v);
+    	 v[i]+=1;
+    	 System.out.println(Arrays.toString(v));
+
+	}
+   
+	}
+     
+     //System.out.println(Arrays.toString(v));
+     
+     
+	}
+
+

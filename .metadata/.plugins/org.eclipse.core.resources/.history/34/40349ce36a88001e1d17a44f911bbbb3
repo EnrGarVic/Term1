@@ -1,0 +1,17 @@
+package arrays;
+
+public class Task9_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  double[] a = new double[5];
+	    ArraysM.fillArray(a);
+
+	  for (int index = 0; index <= a.length; index++)
+	      if (a[index] > a[index + 1])
+	           System.out.println("Array elements " + index +
+	               " and " + (index + 1) + " are out of order.");
+
+	}
+
+}
